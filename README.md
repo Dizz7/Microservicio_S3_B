@@ -1,11 +1,11 @@
 # Microservicio_S3_B
 Actividad de semana 8 del curso Fullstack I - Microservicio Proyecto B
 
-Primera entrega del microservicio de Pacientes desarrollado con Spring Boot.
+Microservicio de Pacientes desarrollado con Spring Boot.
 
 Incluye:
 
-Operaciones para crear, consultar, actualizar y eliminar usuarios.
+Operaciones para crear, consultar, actualizar y eliminar pacientes.
 
 Conexión a Oracle Autonomous Database.
 
