@@ -79,7 +79,7 @@ class PacienteControllerTest {
                 .content(objectMapper.writeValueAsString(paciente1)))
                 .andDo(print())
                 .andDo(mostrarCausaDelError())
-                .andExpect(status().isCreated())
+                .andExpect(status().isOk())
                 .andExpect(content().json(
                         objectMapper.writeValueAsString(paciente1)));
 
